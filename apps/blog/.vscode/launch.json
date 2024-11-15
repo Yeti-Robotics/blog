@@ -5,11 +5,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "yarn run dev",
-      "cwd": "${workspaceFolder}",
-      "name": "Run Dev",
+      "command": "yarn dev",
+      "name": "Debug Website",
       "request": "launch",
-      "type": "node-terminal"
-    }
+      "type": "node-terminal",
+    },
   ]
 }
