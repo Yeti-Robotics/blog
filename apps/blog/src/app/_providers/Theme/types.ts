@@ -6,5 +6,5 @@ export interface ThemeContextType {
 }
 
 export function themeIsValid(string: string | null): string is Theme {
-  return string ? ['light', 'dark'].includes(string) : false
+  return string ? ['light'].includes(string) : false
 }

@@ -12,11 +12,5 @@
 }
 
 .logo {
-  width: 150px;
-}
-
-:global([data-theme="light"]) {
-  .logo {
-    filter: invert(1);
-  }
+  width: 84px;
 }
